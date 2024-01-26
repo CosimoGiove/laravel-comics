@@ -8,7 +8,6 @@
     @vite('resources/js/app.js')
 </head>
 <body>
-    .
     @include("shared.header")
     @include("shared.main1")
     @include("shared.footer")
