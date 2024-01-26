@@ -1,22 +1,24 @@
 @import "~bootstrap/scss/bootstrap";
 @import "_partials/reset.scss";
 
-.contenitoreheader{
+.contenitoreheader {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 20px 0px;
-    ul li{
+
+    ul li {
         display: inline-block;
         margin-left: 40px;
 
     }
-    img{
+
+    img {
         width: 100px;
     }
 }
 
-.testo{
+.testo {
     background-color: #0282f9;
     text-align: end;
     font-size: 12px;
@@ -24,8 +26,31 @@
     padding: 10px;
 }
 
-.jumbotron{
+.jumbotron {
     height: 400px;
     background-image: url(../img/jumbotron.jpg);
     background-size: cover;
+}
+
+.contenitoremain {
+    background-color: #1c1c1c;
+
+    .img-comics {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #1c1c1c;
+    }
+
+    .contenuto {
+        width: calc((100% / 6) - 20px);
+        margin-left: 20px;
+        color: white;
+
+        img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            margin-top: 40px;
+        }
+    }
 }
