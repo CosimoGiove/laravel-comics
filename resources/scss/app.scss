@@ -68,3 +68,41 @@
         }
     }
 }
+
+footer{
+    color: white;
+   ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: lightgrey;
+    cursor: pointer;
+   }
+   .footer{
+    background-image: url(../img/footer-bg.jpg);
+    background-size: cover;
+   }
+   button{
+    all:unset;
+    color: black;
+    border: 2px solid #0282f9 ;
+    text-transform: uppercase;
+    padding: 5px 3px;
+    color: white;
+   }
+   .follow{
+    color: #0882f9;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-right: 10px;
+   }
+   .piedipagina{
+    background-color: #303030;
+    ul li{
+        display: inline-block;
+    }
+   }
+   .infopg{
+    text-align: center;
+    margin-top: 30px;
+   }
+}

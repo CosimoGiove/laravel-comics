@@ -18,6 +18,6 @@ Route::get('/', function () {
         "comics" => config("comics")
     ];
   
-    return view('main', $data);
+    return view('app', $data);
 });
 
