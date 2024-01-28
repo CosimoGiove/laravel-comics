@@ -28,12 +28,14 @@
                 </span>
                 <span>
                     <img src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png') }}" alt="img3">
+                    <span>Shop Locator</span>
                 </span>
-                <span>Shop Locator</span>
+                
                 <span>
                     <img src="{{ Vite::asset('resources/img/buy-comics-subscriptions.png') }}" alt="img4">
+                    <span>Subscription</span>
                 </span>
-                <span>Subscription</span>
+               
             </div>
         </div>
     </div>
